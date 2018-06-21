@@ -12,7 +12,7 @@ let app = express();
 app.use(bodyParser.json());
 
 
-
+//todo app
 
 app.post('/todos',(req,res)=>{
 var todo = new Todo({
